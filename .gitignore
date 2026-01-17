@@ -1,0 +1,49 @@
+# Fichiers sensibles
+google-cloud-key.json
+*.key
+*.pem
+.env
+.env.local
+*test_tts.mp3
+
+# Environnements virtuels
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Cache et logs
+.cache/
+*.log
+*.tmp
+
+# Fichiers temporaires du traducteur
+temp_*.*
+*.wav
+*.m4a
+*.webm
+temp_tts_segments/
+temp_concat.txt
+temp_final.mp3
+
+# yt-dlp
+*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Output (optionnel - décommentez si vous voulez exclure)
+# output/
