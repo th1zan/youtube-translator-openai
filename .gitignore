@@ -45,5 +45,5 @@ dist/
 build/
 *.egg-info/
 
-# Output (optionnel - décommentez si vous voulez exclure)
-# output/
+# Output - fichiers générés (MP3, etc.)
+output/
